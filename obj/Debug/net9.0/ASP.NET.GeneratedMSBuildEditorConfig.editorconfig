@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASP.NET
+build_property.RootNamespace = ASP.NET
+build_property.ProjectDir = /Users/canberkakar/Desktop/ASP.NET/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/canberkakar/Desktop/ASP.NET
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/canberkakar/Desktop/ASP.NET/ASP-NET/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QVNQLU5FVC9WaWV3cy9Ib21lL0Fib3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/canberkakar/Desktop/ASP.NET/ASP-NET/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QVNQLU5FVC9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/canberkakar/Desktop/ASP.NET/ASP-NET/Views/Movies/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QVNQLU5FVC9WaWV3cy9Nb3ZpZXMvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/canberkakar/Desktop/ASP.NET/ASP-NET/Views/Movies/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QVNQLU5FVC9WaWV3cy9Nb3ZpZXMvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
