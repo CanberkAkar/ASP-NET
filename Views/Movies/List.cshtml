@@ -1,3 +1,4 @@
+@model MyApplication.Models.Movie
 <html>
 
 <head>
@@ -8,13 +9,13 @@
     <h1>Movies List</h1>
     <div id="movies">
         <div class="movies">
-            <p>@ViewBag.Movies</p>
-            <p>@ViewBag.Desc</p>
-            <p>@ViewBag.Director</p>
+            <p>@Model.Title</p>
+            <p>@Model.Desc</p>
+            <p>@Model.Director</p>
             <p>
             <ul>
-                @foreach(var item in  ViewBag.Actors){
-                    <li>@item</li>
+                @foreach(var player in  Model.Players){
+                    <li>@player</li>
                 }
             </ul>
             </p>
