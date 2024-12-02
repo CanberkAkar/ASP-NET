@@ -9,5 +9,5 @@ namespace MyApplication.Models
         public string Director { get; set; }
 
         public string[] Players { get; set; } // Bu satır doğru syntax
-    }
+    } 
 }

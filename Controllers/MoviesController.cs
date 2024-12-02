@@ -20,7 +20,7 @@ namespace MyApplication.Controllers
 
             // Movie modelini View'e gönderin
             return View(movie);
-        }
+        } 
 
         public IActionResult Detail()
         {
