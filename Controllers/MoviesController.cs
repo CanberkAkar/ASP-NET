@@ -7,21 +7,18 @@ namespace MyApplication.Controllers
     {
         public IActionResult List()
         {
-            var movie = new Movie();
-            string movies = "Test";
-            string desc = "Desc";
-            string director = "Director";
-            string[] actors = { "actor1", "actor2" };
-            
-            movie.Title = movies;       // movie nesnesine Title atanıyor
-            movie.Desc = desc;          // movie nesnesine Desc atanıyor
-            movie.Director = director;  // movie nesnesine Director atanıyor
-            movie.Players = actors;     // Hatalı olan movies.Players yerine movie.Players yazıldı
-
-            // Movie modelini View'e gönderin
-            return View(movie);
-        } 
-
+            var movieListed = new List<Movie>()
+            {
+                new Movie {
+                    Title="film 1",
+                    Desc="açıklama 1",
+                    Director="director",
+                    Players= new String[]{"player1","player2"}
+                }
+                
+            };
+            return View("Movies",movieListed);
+        }
         public IActionResult Detail()
         {
             return View();
