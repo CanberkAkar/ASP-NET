@@ -13,7 +13,8 @@ namespace MyApplication.Controllers
                     Title="film 1",
                     Desc="açıklama 1",
                     Director="director",
-                    Players= new String[]{"player1","player2"}
+                    Players= new String[]{"player1","player2"},
+                    ImageUrl="godfather.jpg"
                 }
                 
             };

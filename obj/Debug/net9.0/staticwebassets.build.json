@@ -1,12 +1,465 @@
 {
   "Version": 1,
-  "Hash": "oya7INXWcB2E4+hSoYoxktKLjMQiKqcxTUA0CWtuOB8=",
+  "Hash": "sp2w/OZ8bDMudPyEjDVL4t7XeF/FyXjqAQIcWVpanps=",
   "Source": "ASP.NET",
   "BasePath": "_content/ASP.NET",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASP.NET/wwwroot",
+      "Source": "ASP.NET",
+      "ContentRoot": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/",
+      "BasePath": "_content/ASP.NET",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "SourceId": "ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ASP.NET",
+      "RelativePath": "css/style#[.{fingerprint=st2ptpcfnm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uiyxidryj0",
+      "Integrity": "BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "SourceId": "ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/",
+      "BasePath": "_content/ASP.NET",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "st2ptpcfnm",
+      "Integrity": "kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/img/godfather.jpg",
+      "SourceId": "ASP.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/",
+      "BasePath": "_content/ASP.NET",
+      "RelativePath": "img/godfather#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tjqlek78vq",
+      "Integrity": "qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/godfather.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.st2ptpcfnm.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st2ptpcfnm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.st2ptpcfnm.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st2ptpcfnm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.st2ptpcfnm.css.gz",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st2ptpcfnm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74="
+        }
+      ]
+    },
+    {
+      "Route": "img/godfather.jpg",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/img/godfather.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 18:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc="
+        }
+      ]
+    },
+    {
+      "Route": "img/godfather.tjqlek78vq.jpg",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/img/godfather.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 18:56:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjqlek78vq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/godfather.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc="
+        }
+      ]
+    }
+  ]
 }

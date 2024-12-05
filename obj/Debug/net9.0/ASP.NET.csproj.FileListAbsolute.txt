@@ -29,3 +29,5 @@
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.pdb
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.genruntimeconfig.cache
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ref/ASP.NET.dll
+/Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET.staticwebassets.runtime.json
+/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz

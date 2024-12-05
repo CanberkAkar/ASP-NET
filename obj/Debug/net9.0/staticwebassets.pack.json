@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/img/godfather.jpg",
+      "PackagePath": "staticwebassets/img/godfather.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ASP.NET.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ASP.NET.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.ASP.NET.props",
+      "PackagePath": "build\\ASP.NET.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ASP.NET.props",
+      "PackagePath": "buildMultiTargeting\\ASP.NET.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ASP.NET.props",
+      "PackagePath": "buildTransitive\\ASP.NET.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
