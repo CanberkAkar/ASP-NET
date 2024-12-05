@@ -7,6 +7,7 @@ namespace MyApplication.Controllers
     {
         public IActionResult List()
         {
+            //layout sayfalara göre spesifik olarak da düzenlenir.
             var movieListed = new List<Movie>()
             {
                 new Movie {
