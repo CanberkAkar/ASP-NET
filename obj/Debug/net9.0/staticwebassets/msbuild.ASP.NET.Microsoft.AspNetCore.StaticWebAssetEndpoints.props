@@ -24,5 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tjqlek78vq"},{"Name":"integrity","Value":"sha256-qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc="},{"Name":"label","Value":"_content/ASP.NET/img/godfather.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110864"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qYcdAeirqhg6u4ZE3YqJKRDpt9HDrgP/fDCg1m1dUsc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 18:56:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASP.NET/js/script.jgpmxbjk5o.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jgpmxbjk5o"},{"Name":"integrity","Value":"sha256-YyeTXEEDvdUn4SEEQwWcQj1xGgfkyT8LNTFXYzrV0nc="},{"Name":"label","Value":"_content/ASP.NET/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YyeTXEEDvdUn4SEEQwWcQj1xGgfkyT8LNTFXYzrV0nc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 06:50:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ASP.NET/js/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YyeTXEEDvdUn4SEEQwWcQj1xGgfkyT8LNTFXYzrV0nc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YyeTXEEDvdUn4SEEQwWcQj1xGgfkyT8LNTFXYzrV0nc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 06:50:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

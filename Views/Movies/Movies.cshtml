@@ -1,20 +1,23 @@
 @model List<Movie>
-    <h1>Movies List</h1>
-    <div id="movies">
-        @foreach(var movie in Model) 
-        {
-            <div class="movies">
-                <img src="/img/@movie.ImageUrl" alt="@movie.Title" width="200" height="200">
-                <p>@movie.Title</p>  
-                <p>@movie.Desc</p>   
-                <p>@movie.Director</p> 
-                <ul>
-                    @foreach(var player in movie.Players)  
-                    {
-                        <li>@player</li>
-                    }
-                </ul>
-            </div> 
-        }
-    </div>
-    
+<h1>Movies List</h1>
+<div id="movies">
+    @foreach (var movie in Model)
+    {
+        <div class="movies">
+            <img src="/img/@movie.ImageUrl" alt="@movie.Title" width="200" height="200">
+            <p>@movie.Title</p>
+            <p>@movie.Desc</p>
+            <p>@movie.Director</p>
+            <ul>
+                @foreach (var player in movie.Players)
+                {
+                    <li>@player</li>
+                }
+            </ul>
+        </div>
+    }
+</div>
+@section menu{
+    @await Html.PartialAsync("_menu")
+
+}

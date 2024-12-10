@@ -1,2 +1,9 @@
-  @await Html.PartialAsync("_header")
+  @section header
+  {
+    @await Html.PartialAsync("_header")
+  }
+    @section scripts
+  {
+    <script src="/js/script.js"></script>
+  }
  <h1>Index</h1> 

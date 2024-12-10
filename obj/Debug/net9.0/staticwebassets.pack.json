@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/img/godfather.jpg"
     },
     {
+      "Id": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/js/script.js",
+      "PackagePath": "staticwebassets/js/script.js"
+    },
+    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ASP.NET.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

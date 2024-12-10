@@ -10,24 +10,36 @@
 
 <body>
     @await Html.PartialAsync("_navbar")
-
+    @RenderSection("header", false)
     <div class="container mt-3">
-        <div class="row">
-            <div class="col-md-3">
-                @await Html.PartialAsync("_menu")
-            </div>
-            <div class="col-md-9">
-                @RenderBody()
+        @if (IsSectionDefined("menu"))
+        {
+            <div class="row">
+                <div class="col-md-3">
+                    @RenderSection("menu", false)
+                </div>
+                <div class="col-md-9">
+                    @RenderBody()
+
+                </div>
 
             </div>
-
-        </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-md-12">
+                    @RenderBody()
+                </div>
+            </div>
+        }
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    @RenderSection("scripts", false)
 </body>
 
 </html>
