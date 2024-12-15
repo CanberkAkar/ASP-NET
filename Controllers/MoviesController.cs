@@ -17,9 +17,22 @@ namespace MyApplication.Controllers
                     Players= new String[]{"player1","player2"},
                     ImageUrl="godfather.jpg"
                 }
-                
+
             };
-            return View("Movies",movieListed);
+            var genreListed = new List<Genre>()
+            {
+                new Genre{Name="Macera"},
+                new Genre{Name="Savaş"},
+                new Genre{Name="Romantik"}
+
+            };
+
+            var model = new MovieGenreViewModel(){
+                Movies=movieListed,
+                Genres =genreListed
+            };
+            //VERİYİ PAKETLEYEĞİZ.
+            return View("Movies", model);
         }
         public IActionResult Detail()
         {

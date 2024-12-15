@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MyApplication.Models;
 
 namespace MyApplication.Controllers
 {
@@ -6,9 +7,24 @@ namespace MyApplication.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            string Title = "film 1";
+            string Desc = "açıklama 1";
+
+            string Director = "director";
+
+            string[] Players = { "player1", "player2" };
+            string ImageUrl = "godfather.jpg";
+
+            var m = new Movie();
+            m.Title = Title;
+            m.Desc = Desc;
+            m.Director = Director;
+            m.Players = Players;
+            m.ImageUrl = ImageUrl;
+
+            return View(m);
         }
-         public IActionResult About() 
+        public IActionResult About()
         {
             return View();
         }

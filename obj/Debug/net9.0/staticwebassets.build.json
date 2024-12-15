@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hfEpO0LOoU2PyQ+rV95bCZdtUGL632nf7C3PjWe3yX4=",
+  "Hash": "QST3zGMyt2EyXRwPhl8wTIpLatUUjaC/OiXCSthbxZM=",
   "Source": "ASP.NET",
   "BasePath": "_content/ASP.NET",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/js/script.js"
     },
     {
-      "Identity": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Identity": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz",
       "SourceId": "ASP.NET",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/ASP.NET",
-      "RelativePath": "css/style#[.{fingerprint=st2ptpcfnm}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=5ipweew5fc}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "uiyxidryj0",
-      "Integrity": "BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "st2ptpcfnm",
-      "Integrity": "kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/style.css"
@@ -124,13 +124,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/style.css",
-      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
+      "Route": "css/style.5ipweew5fc.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.011363636364"
+          "Quality": "1.000000000000"
         }
       ],
       "ResponseHeaders": [
@@ -140,19 +140,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "87"
+          "Value": "0"
         },
         {
           "Name": "ETag",
-          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -168,18 +168,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
     {
-      "Route": "css/style.css",
+      "Route": "css/style.5ipweew5fc.css",
       "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -189,7 +197,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "84"
+          "Value": "0"
         },
         {
           "Name": "Content-Type",
@@ -197,121 +205,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css.gz",
-      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "87"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.st2ptpcfnm.css",
-      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011363636364"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "87"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "st2ptpcfnm"
+          "Value": "5ipweew5fc"
         },
         {
           "Name": "label",
@@ -319,13 +227,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
     {
-      "Route": "css/style.st2ptpcfnm.css",
-      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "Route": "css/style.5ipweew5fc.css.gz",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -334,7 +242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "84"
+          "Value": "0"
         },
         {
           "Name": "Content-Type",
@@ -342,56 +250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI=\""
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "st2ptpcfnm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kJusw8kYkSBP2aM3ssZUKwghAhEWg/9BwI2DbhngaHI="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.st2ptpcfnm.css.gz",
-      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-st2ptpcfnm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "87"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 19:09:41 GMT"
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -409,7 +272,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "st2ptpcfnm"
+          "Value": "5ipweew5fc"
         },
         {
           "Name": "label",
@@ -417,7 +280,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BgOOsPqZlvk7h1pujAELftYYc0lwbr4MyxtB9hMqo74="
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "1.000000000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 09:05:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
