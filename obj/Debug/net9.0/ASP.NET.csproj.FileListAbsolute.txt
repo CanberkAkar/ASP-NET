@@ -1,5 +1,6 @@
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/appsettings.Development.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/appsettings.json
+/Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET.staticwebassets.runtime.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET.staticwebassets.endpoints.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET.deps.json
@@ -15,6 +16,8 @@
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.RazorAssemblyInfo.cs
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.sourcelink.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/scopedcss/bundle/ASP.NET.styles.css
+/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz
+/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/32fc7frlet-jgpmxbjk5o.gz
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/staticwebassets.build.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/staticwebassets.development.json
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -29,6 +32,3 @@
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.pdb
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ASP.NET.genruntimeconfig.cache
 /Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/ref/ASP.NET.dll
-/Users/canberkakar/Desktop/ASP.NET/ASP-NET/bin/Debug/net9.0/ASP.NET.staticwebassets.runtime.json
-/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/32fc7frlet-jgpmxbjk5o.gz
-/Users/canberkakar/Desktop/ASP.NET/ASP-NET/obj/Debug/net9.0/compressed/qlvolif4xs-5ipweew5fc.gz

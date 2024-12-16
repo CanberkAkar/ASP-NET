@@ -26,7 +26,15 @@ namespace MyApplication.Controllers
         }
         public IActionResult About()
         {
-            return View();
+            var genreListed = new List<Genre>()
+            {
+                new Genre{Name="Macera"},
+                new Genre{Name="Savaş"},
+                new Genre{Name="Romantik"}
+
+            };
+
+            return View(genreListed);
         }
     }
 }
